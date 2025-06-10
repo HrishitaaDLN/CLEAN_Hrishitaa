@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # --- File paths ---
-path_scores = "D:/All Municipality Reports/Final_Municipality_Reports_For_Analysis/Iterations/Iteration 2/analysis_output/analysis_scores.xlsx"
-path_extracted = "d:/All Municipality Reports/Final_Municipality_Reports_For_Analysis/ExtractActions/analysis_output_excel/Analyse/merged_output.xlsx"
-path_prioritized = "d:/All Municipality Reports/Final_Municipality_Reports_For_Analysis/ExtractActionPrioritization/prioritized_action_output/Prioritized_Actions_and_Summary_final.xlsx"
+path_scores = "/analysis_scores.xlsx"
+path_extracted = "/merged_output.xlsx"
+path_prioritized = "/Prioritized_Actions_and_Summary_final.xlsx"
 
 # --- Load data ---
 scores_df = pd.read_excel(path_scores)
